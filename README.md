@@ -1,10 +1,10 @@
 # Z Player
 
-A lightweight and fast media player designed for seamless audio and video playback.
+A lightweight and fast media player designed for seamless video playback.
 
 ## ✨ Features
 
-- **Universal Playback:** Plays all major audio and video formats.
+- **Universal Playback:** Plays all major video formats.
 - **Fast & Lightweight:** Optimized for speed with minimal battery and system resource usage.
 - **Simple Controls:** Clean, distraction-free interface with keyboard and touch shortcuts.
 
