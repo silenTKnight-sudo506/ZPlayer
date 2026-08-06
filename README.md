@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="HomeScreen.png" alt="Z Player Logo" width="140" style="border-radius: 20px;">
+  <img src="assets/Logo.jpg" alt="Z Player Logo" width="100" style="border-radius: 18px;">
 
   # Z Player
 
@@ -36,17 +36,17 @@ Z Player drops unnecessary bloat to focus on pure playback speed and interface c
 
 <div align="center">
 
-  <img src="HomeScreen.png" width="45%" alt="Home Screen"/>
-  <img src="FolderScreen.png" width="45%" alt="Folder Screen"/>
+  <img src="assets/HomeScreen.png" width="45%" alt="Home Screen"/>
+  <img src="assets/FolderScreen.png" width="45%" alt="Folder Screen"/>
 
   <br/><br/>
 
-  <img src="PlayerScreen.png" width="45%" alt="Player View"/>
-  <img src="PlayerSscreen_1.png" width="45%" alt="Player Alternate View"/>
+  <img src="assets/PlayerScreen.png" width="45%" alt="Player View"/>
+  <img src="assets/PlayerSscreen_1.png" width="45%" alt="Player Alternate View"/>
 
   <br/><br/>
 
-  <img src="SettingsScreen.png" width="45%" alt="Settings Screen"/>
+  <img src="assets/SettingsScreen.png" width="45%" alt="Settings Screen"/>
 
 </div>
 
