@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/Logo.jpg" alt="Z Player Logo" width="100" style="border-radius: 18px;">
+  <img src="assets/Logo.png" alt="Z Player Logo" width="100" style="border-radius: 18px;">
 
   # Z Player
 
