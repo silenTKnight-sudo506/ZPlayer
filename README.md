@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="icon.png" alt="Z Player Logo" width="160" height="160">
+  <img src="HomeScreen.png" alt="Z Player Logo" width="140" style="border-radius: 20px;">
 
   # Z Player
 
-  [![Stars](https://img.shields.io/github/stars/yourusername/Z-Player?style=flat-square)](https://github.com/yourusername/Z-Player/stargazers)
-  [![Forks](https://img.shields.io/github/forks/yourusername/Z-Player?style=flat-square)](https://github.com/yourusername/Z-Player/network/members)
-  [![Version](https://img.shields.io/github/v/release/yourusername/Z-Player?color=6C5CE7&style=flat-square)](https://github.com/yourusername/Z-Player/releases)
-  [![License](https://img.shields.io/github/license/yourusername/Z-Player?style=flat-square)](LICENSE)
+  [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
+  [![Forks](https://img.shields.io/github/forks/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/network/members)
+  [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?color=6C5CE7&style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+  [![License](https://img.shields.io/github/license/silenTKnight-sudo506/ZPlayer?style=flat-square)](LICENSE)
 
   A lightweight, high-performance media player built for smooth audio & video playback, custom layouts, and rapid controls.
 
@@ -34,28 +34,21 @@ Z Player drops unnecessary bloat to focus on pure playback speed and interface c
 
 ## Screenshots / UI preview 🖼️
 
-To make the screenshots bigger (unlike the tight grid layout), we stack them 2 per row with explicit widths so they render larger on mobile and desktop:
-
 <div align="center">
 
-  <img src="screenshot1.png" width="45%" alt="Home View"/>
-  <img src="screenshot2.png" width="45%" alt="Player View"/>
+  <img src="HomeScreen.png" width="45%" alt="Home Screen"/>
+  <img src="FolderScreen.png" width="45%" alt="Folder Screen"/>
 
   <br/><br/>
 
-  <img src="screenshot3.png" width="45%" alt="Playlist Management"/>
-  <img src="screenshot4.png" width="45%" alt="Settings Interface"/>
+  <img src="PlayerScreen.png" width="45%" alt="Player View"/>
+  <img src="PlayerSscreen_1.png" width="45%" alt="Player Alternate View"/>
+
+  <br/><br/>
+
+  <img src="SettingsScreen.png" width="45%" alt="Settings Screen"/>
 
 </div>
-
----
-
-## Source support 📡
-
-Z Player integrates smoothly across multiple platforms and tools:
-
-* **GitHub** is the primary release path and issue tracker.
-* **FFmpeg Core** serves as the primary media playback backend.
 
 ---
 
@@ -65,7 +58,7 @@ Get the latest stable release for your platform directly from our GitHub Release
 
 <div align="center">
 
-  [![Get it on GitHub](https://img.shields.io/badge/Download-Z_Player_v1.0.0-6C5CE7?style=for-the-badge&logo=github)](https://github.com/yourusername/Z-Player/releases/latest)
+  [![Get it on GitHub](https://img.shields.io/badge/Download-Z_Player_v1.0.0-6C5CE7?style=for-the-badge&logo=github)](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest)
 
 </div>
 
