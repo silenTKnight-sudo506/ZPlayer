@@ -9,7 +9,7 @@
   [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?color=6C5CE7&style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-  A lightweight, high-performance media player built for smooth audio & video playback, custom layouts, and rapid controls.
+  A lightweight, high-performance media player built for smooth video playback, custom layouts, and rapid controls.
 
   [📥 Download App](#-downloads) • [✨ Features](#-key-features) • [🖼️ Screenshots](#-screenshots--ui-preview)
 
