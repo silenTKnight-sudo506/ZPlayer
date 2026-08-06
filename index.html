@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Player | The Ultimate Media Experience</title>
+    <style>
+        :root {
+            --primary: #6C5CE7;
+            --bg-dark: #121212;
+            --text-light: #F5F5F5;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        header {
+            padding: 2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #AAA;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #5b4bc4;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 4rem 2rem;
+            background-color: #1a1a1a;
+        }
+        .feature-card {
+            background: #252525;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #333;
+            margin-top: 2rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Z Player</div>
+        <nav>
+            <a href="https://github.com/yourusername/Z-Player" target="_blank" style="color: white; text-decoration: none;">View on GitHub</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Z Player</h1>
+        <p>A lightweight, powerful, and customizable media application designed for a seamless playback experience.</p>
+        <a href="#download" class="cta-button">Download Now</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Lightning Fast</h3>
+            <p>Optimized for speed and minimal resource consumption.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Format Support</h3>
+            <p>Plays almost any media format you throw at it right out of the box.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Customizable</h3>
+            <p>Tweak the interface and playback settings to match your exact preferences.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Z Player. Open Source under the MIT License.</p>
+    </footer>
+
+</body>
+</html>
