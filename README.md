@@ -17,6 +17,20 @@
 
 ---
 
+## Overview 🌌
+
+Z Player is an **Android**-first media application built for high-performance playback without unnecessary background overhead. The app handles local storage indexing, media playback acceleration, and customizable interface controls directly on-device.
+
+> Z Player is built for users who want total control over their media experience without sacrificing system resources.
+
+At a glance:
+
+* **Hardware-accelerated playback** for high-bitrate media
+* **Clean, modern dark UI** optimized for mobile navigation
+* **Native gesture controls** for rapid seeking and volume adjustment
+
+---
+
 ## What makes Z Player different ✨
 
 Z Player drops unnecessary bloat to focus on pure playback speed and interface clarity. Designed for media enthusiasts who want total control without high system resource usage.
