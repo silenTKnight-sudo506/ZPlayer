@@ -7,7 +7,7 @@
   [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
   [![Forks](https://img.shields.io/github/forks/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/network/members)
   [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?color=6C5CE7&style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
-  [![License](https://img.shields.io/github/license/silenTKnight-sudo506/ZPlayer?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
   A lightweight, high-performance media player built for smooth audio & video playback, custom layouts, and rapid controls.
 
