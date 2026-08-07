@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Z Player — The Lightweight Android Media Player</title>
   
-  <!-- Import Editorial & Serif Google Fonts -->
+  <!-- Import Modern Tech Fonts (Outfit for headings, Inter for body text) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;900&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --bg-cream: #F4F1EA;
-      --text-dark: #1A1A1A;
-      --text-muted: #555555;
-      --accent-orange: #C84B24;
-      --accent-green: #1E4632;
-      --border-dark: #1A1A1A;
-      --ticker-bg: #141913;
+      --bg-dark: #0D1117;
+      --card-bg: #161B22;
+      --text-light: #F0F6FC;
+      --text-muted: #8B949E;
+      --accent-green: #22C55E;
+      --border-color: #30363D;
+      --ticker-bg: #010409;
+      --shadow-color: #000000;
     }
 
     * {
@@ -28,10 +29,10 @@
     }
 
     body {
-      background-color: var(--bg-cream);
-      color: var(--text-dark);
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      line-height: 1.5;
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
       padding: 0;
       overflow-x: hidden;
     }
@@ -39,15 +40,15 @@
     /* Top Ticker Bar */
     .ticker-bar {
       background-color: var(--ticker-bg);
-      color: #E8E3D5;
+      color: var(--text-muted);
       font-size: 0.75rem;
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 2px;
       text-transform: uppercase;
-      padding: 8px 0;
+      padding: 10px 0;
       overflow: hidden;
       white-space: nowrap;
-      border-bottom: 2px solid var(--border-dark);
+      border-bottom: 1px solid var(--border-color);
     }
 
     .ticker-content {
@@ -66,7 +67,7 @@
     }
 
     .ticker-star {
-      color: var(--accent-orange);
+      color: var(--accent-green);
       margin-right: 24px;
     }
 
@@ -75,8 +76,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 16px 24px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border-color);
       max-width: 1100px;
       margin: 0 auto;
     }
@@ -90,18 +91,287 @@
     .brand img {
       width: 42px;
       height: 42px;
-      border-radius: 8px;
+      border-radius: 10px;
     }
 
     .brand-title {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Outfit', sans-serif;
       font-weight: 900;
       font-size: 1.5rem;
       line-height: 1;
+      color: var(--text-light);
     }
 
     .brand-sub {
-      font-size: 0.65rem;
+      font-size: 0.7rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Pill Badge */
+    .pill-badge {
+      display: inline-block;
+      border: 1px solid var(--accent-green);
+      background-color: rgba(34, 197, 94, 0.1);
+      color: var(--accent-green);
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    /* Hero Typography */
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      color: var(--text-light);
+    }
+
+    h1 span.accent {
+      color: var(--accent-green);
+    }
+
+    .sub-hero {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 40px;
+      max-width: 620px;
+    }
+
+    /* Modern Neo-brutalist Buttons */
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 60px;
+    }
+
+    @media (min-width: 480px) {
+      .btn-group {
+        flex-direction: row;
+      }
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 28px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #000000;
+      background-color: var(--accent-green);
+      border: 2px solid var(--accent-green);
+      box-shadow: 4px 4px 0px var(--shadow-color);
+      border-radius: 8px;
+      transition: all 0.15s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px var(--shadow-color);
+      background-color: #26D968;
+    }
+
+    .btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px var(--shadow-color);
+    }
+
+    .btn-secondary {
+      background-color: var(--card-bg);
+      color: var(--text-light);
+      border: 2px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--border-color);
+      border-color: var(--text-muted);
+    }
+
+    /* Section Headings */
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent-green);
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 900;
+      margin-bottom: 20px;
+    }
+
+    h2 span.accent {
+      color: var(--accent-green);
+    }
+
+    .divider {
+      height: 1px;
+      background-color: var(--border-color);
+      margin: 48px 0;
+    }
+
+    /* Text Content */
+    .body-text {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+    }
+
+    /* Screenshots Grid */
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .screenshot-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .screenshot-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-green);
+    }
+
+    .screenshot-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 80px;
+    }
+
+    footer a {
+      color: var(--accent-green);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Ticker Bar -->
+  <div class="ticker-bar">
+    <div class="ticker-content">
+      <span class="ticker-item">HARDWARE ACCELERATED</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">ZERO BACKGROUND OVERHEAD</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">CARD-DRIVEN INTERFACE</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">GESTURE CONTROLS</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">HARDWARE ACCELERATED</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">ZERO BACKGROUND OVERHEAD</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">CARD-DRIVEN INTERFACE</span><span class="ticker-star">✦</span>
+      <span class="ticker-item">GESTURE CONTROLS</span><span class="ticker-star">✦</span>
+    </div>
+  </div>
+
+  <!-- Header Nav -->
+  <nav>
+    <div class="brand">
+      <img src="assets/Logo.png" alt="Z Player Logo" />
+      <div>
+        <div class="brand-title">Z Player</div>
+        <div class="brand-sub">Android Media App · v1.0.2</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Body Content -->
+  <div class="container">
+    
+    <div class="pill-badge">RELEASED · AVAILABLE ON GITHUB</div>
+
+    <h1>
+      Player for the <span class="accent">Minimal</span> & <span class="accent">Uncluttered.</span>
+    </h1>
+
+    <p class="sub-hero">
+      An Android-first media player built for smooth local playback without unnecessary background overhead. High performance meets aesthetic card previews.
+    </p>
+
+    <div class="btn-group">
+      <a href="https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest" class="btn">DOWNLOAD APK &rarr;</a>
+      <a href="https://github.com/silenTKnight-sudo506/ZPlayer" class="btn btn-secondary">GITHUB REPO &rarr;</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-label">ABOUT APP · OUR VISION</div>
+    <h2>Welcome to <span class="accent">Z Player.</span></h2>
+
+    <p class="body-text">
+      Z Player replaces plain, text-heavy file managers with a modern card-driven media interface. The app handles local storage indexing, media playback acceleration, and customizable interface controls directly on-device.
+    </p>
+
+    <p class="body-text">
+      Built specifically for users who want total control over their local media experience without sacrificing system resources.
+    </p>
+
+    <div class="btn-group" style="margin-top: 32px;">
+      <a href="https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest" class="btn">GET LATEST RELEASE &rarr;</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-label">INTERFACE PREVIEWS</div>
+    <h2>Built to look <span class="accent">Sleek.</span></h2>
+
+    <div class="screenshot-grid">
+      <div class="screenshot-card"><img src="assets/HomeScreen.png" alt="Home Screen" /></div>
+      <div class="screenshot-card"><img src="assets/FolderScreen.png" alt="Folder Screen" /></div>
+      <div class="screenshot-card"><img src="assets/PlayerScreen.png" alt="Player Screen" /></div>
+      <div class="screenshot-card"><img src="assets/SettingsScreen.png" alt="Settings Screen" /></div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Crafted by <a href="https://github.com/silenTKnight-sudo506">silenTKnight-sudo506</a> · Open Source MIT License</p>
+  </footer>
+
+</body>
+</html>
       letter-spacing: 1.5px;
       text-transform: uppercase;
       color: var(--text-muted);
