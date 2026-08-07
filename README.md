@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/Logo.jpg" alt="Z Player Logo" width="120" style="border-radius: 24px;" />
+  <img src="assets/Logo.png" alt="Z Player Logo" width="120" style="border-radius: 24px;" />
 
   # Z Player
 
@@ -23,7 +23,7 @@
 
 ## 📌 Overview
 
-**Z Player** replaces repetitive, text-heavy file managers with a sleek, card-driven media interface for local video playback. Designed with performance and modern mobile aesthetics in mind, it provides low-latency playback alongside native drag and gesture shortcuts.
+**Z Player** replaces repetitive, text-heavy file managers with a sleek, card-driven media interface for local video and audio playback. Designed with performance and modern mobile aesthetics in mind, it provides low-latency playback alongside native drag and gesture shortcuts.
 
 ---
 
@@ -39,12 +39,10 @@
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="assets/Preview1.jpg" width="30%" alt="Screen 1" />
-  <img src="assets/Preview2.jpg" width="30%" alt="Screen 2" />
-  <img src="assets/Preview3.jpg" width="30%" alt="Screen 3" />
+  <img src="assets/HomeScreen.png" width="30%" alt="Home Screen" />
+  <img src="assets/PlayerScreen.png" width="30%" alt="Player Screen" />
+  <img src="assets/FolderScreen.png" width="30%" alt="Folder Screen" />
 </div>
-
-*(Replace `Preview1.jpg`, `Preview2.jpg`, `Preview3.jpg` with actual image filenames in your `assets/` directory)*
 
 ---
 
