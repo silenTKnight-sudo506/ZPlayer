@@ -1,83 +1,63 @@
 <div align="center">
 
-  <img src="assets/Logo.png" alt="Z Player Logo" width="100" style="border-radius: 18px;">
+  <img src="assets/Logo.jpg" alt="Z Player Logo" width="120" style="border-radius: 24px;" />
 
   # Z Player
 
-  [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
-  [![Forks](https://img.shields.io/github/forks/silenTKnight-sudo506/ZPlayer?style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/network/members)
-  [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?color=6C5CE7&style=flat-square)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+  **A modern, fast Android media player built with card UI layouts and hero previews.**
 
-  A lightweight, high-performance media player built for smooth video playback, custom layouts, and rapid controls.
+  [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=flat-square&color=6C5CE7)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+  [![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
+  [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square&color=FFD700)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
 
-  [📥 Download App](#-downloads) • [✨ Features](#-key-features) • [🖼️ Screenshots](#-screenshots--ui-preview)
+  <br />
 
-</div>
+  [📥 **Download Latest APK**](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest) • [✨ **Features**](#-key-features) • [📱 **Screenshots**](#-screenshots)
 
----
-
-## Overview 🌌
-
-Z Player is an **Android**-first media application built for high-performance playback without unnecessary background overhead. The app handles local storage indexing, media playback acceleration, and customizable interface controls directly on-device.
-
-> Z Player is built for users who want total control over their media experience without sacrificing system resources.
-
-At a glance:
-
-* **Hardware-accelerated playback** for high-bitrate media
-* **Clean, modern dark UI** optimized for mobile navigation
-* **Native gesture controls** for rapid seeking and volume adjustment
-
----
-
-## What makes Z Player different ✨
-
-Z Player drops unnecessary bloat to focus on pure playback speed and interface clarity. Designed for media enthusiasts who want total control without high system resource usage.
-
-## Feature atlas 🚀
-
-| Feature | Description |
-| :--- | :--- |
-| **⚡ High Performance** | Minimal memory footprint and hardware-accelerated decoding. |
-| **🎨 Sleek Design** | Clean modern dark shell with adaptive playback controls. |
-| **⌨️ Quick Gestures** | Full set of customizable keyboard shortcuts and touch gestures. |
-| **📁 Universal Formats** | Native support for all major audio and video containers. |
-
----
-
-## Screenshots / UI preview 🖼️
-
-<div align="center">
-
-  <img src="assets/HomeScreen.png" width="45%" alt="Home Screen"/>
-  <img src="assets/FolderScreen.png" width="45%" alt="Folder Screen"/>
-
-  <br/><br/>
-
-  <img src="assets/PlayerScreen.png" width="45%" alt="Player View"/>
-  <img src="assets/PlayerSscreen_1.png" width="45%" alt="Player Alternate View"/>
-
-  <br/><br/>
-
-  <img src="assets/SettingsScreen.png" width="45%" alt="Settings Screen"/>
+  <br />
 
 </div>
 
 ---
 
-## 📥 Downloads
+## 📌 Overview
 
-Get the latest stable release for your platform directly from our GitHub Releases page:
+**Z Player** replaces repetitive, text-heavy file managers with a sleek, card-driven media interface for local video playback. Designed with performance and modern mobile aesthetics in mind, it provides low-latency playback alongside native drag and gesture shortcuts.
+
+---
+
+## ✨ Key Features
+
+* **🎨 Modern Card-Driven UI:** Replaces plain text file trees with rich media cards and hero preview banners.
+* **⚡ Hardware-Accelerated Playback:** Low CPU overhead ensuring smooth, high-bitrate media decoding.
+* **📱 Touch & Gesture Shortcuts:** Intuitive drag controls for fast seeking, brightness, and volume adjustments.
+* **📁 Visual Library Management:** Easily toggle between visual hero cards or quick structured folder access.
+
+---
+
+## 📱 Screenshots
 
 <div align="center">
-
-  [![Get it on GitHub](https://img.shields.io/badge/Download-Z_Player_v1.0.0-6C5CE7?style=for-the-badge&logo=github)](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest)
-
+  <img src="assets/Preview1.jpg" width="30%" alt="Screen 1" />
+  <img src="assets/Preview2.jpg" width="30%" alt="Screen 2" />
+  <img src="assets/Preview3.jpg" width="30%" alt="Screen 3" />
 </div>
+
+*(Replace `Preview1.jpg`, `Preview2.jpg`, `Preview3.jpg` with actual image filenames in your `assets/` directory)*
+
+---
+
+## 🚀 Installation
+
+1. Go to the [**Releases**](https://github.com/silenTKnight-sudo506/ZPlayer/releases) section.
+2. Download the latest `.apk` file (e.g., `ZPlayer-v1.0.1.apk`).
+3. Install the APK on your Android device.
 
 ---
 
 <div align="center">
-  Distributed under the MIT License.
+
+Made with ❤️ by [silenTKnight-sudo506](https://github.com/silenTKnight-sudo506)
+
 </div>
