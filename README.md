@@ -38,11 +38,19 @@
 
 ## 📱 Screenshots
 
-<div align="center">
-  <img src="assets/HomeScreen.png" width="30%" alt="Home Screen" />
-  <img src="assets/PlayerScreen.png" width="30%" alt="Player Screen" />
-  <img src="assets/FolderScreen.png" width="30%" alt="Folder Screen" />
-</div>
+<p align="center">
+  <img src="assets/HomeScreen.png" width="45%" alt="Home Screen" />
+  <img src="assets/FolderScreen.png" width="45%" alt="Folder Screen" />
+</p>
+
+<p align="center">
+  <img src="assets/PlayerScreen.png" width="45%" alt="Player Screen 1" />
+  <img src="assets/PlayerSscreen_1.png" width="45%" alt="Player Screen 2" />
+</p>
+
+<p align="center">
+  <img src="assets/SettingsScreen.png" width="45%" alt="Settings Screen" />
+</p>
 
 ---
 
