@@ -38,13 +38,13 @@
 
 ## 📱 Screenshots
 
-<div align="center">
-  <img src="assets/HomeScreen.png" width="30%" alt="Home Screen" />
-  <img src="assets/FolderScreen.png" width="30%" alt="Folder Screen" />
-  <img src="assets/PlayerScreen.png" width="30%" alt="Player Screen" />
-  <img src="assets/PlayerSscreen_1.png" width="30%" alt="Player Screen" />
-  <img src="assets/SettingsScreen.png" width="30%" alt="Folder Screen" />
-</div>
+| Home | Folders | Player |
+| :---: | :---: | :---: |
+| <img src="assets/HomeScreen.png" width="250" /> | <img src="assets/FolderScreen.png" width="250" /> | <img src="assets/PlayerScreen.png" width="250" /> |
+
+| Player Details | Settings |
+| :---: | :---: |
+| <img src="assets/PlayerSscreen_1.png" width="250" /> | <img src="assets/SettingsScreen.png" width="250" /> |
 
 ---
 
