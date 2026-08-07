@@ -1,69 +1,48 @@
 <div align="center">
 
-  <img src="assets/Logo.png" alt="Z Player Logo" width="100" />
+  <img src="assets/Logo.png" alt="Z Player Logo" width="120" style="border-radius: 24px;" />
 
   # Z Player
 
-  [![Release](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=for-the-badge&color=22C55E)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-  [![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+  **A modern, fast Android media player built with card UI layouts and hero previews.**
 
-  **A modern, lightweight Android media player with card UI layouts and hero previews.**
+  [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=flat-square&color=6C5CE7)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+  [![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
+  [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square&color=FFD700)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
 
-  ---
+  <br />
 
-  [🚀 **Download Latest APK**](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest) • [✨ **Features**](#-key-features) • [📱 **Screenshots**](#-screenshots) • [🌐 **Live Web Page**](https://silenTKnight-sudo506.github.io/ZPlayer/)
+  [📥 **Download Latest APK**](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest) • [✨ **Features**](#-key-features) • [📱 **Screenshots**](#-screenshots)
+
+  <br />
 
 </div>
 
-<br />
+---
 
-> [!NOTE]
-> **Z Player** is designed to replace outdated file-tree media players with an aesthetic, hero-card-driven interface and gesture-driven controls.
+## 📌 Overview
+
+**Z Player** replaces repetitive, text-heavy file managers with a sleek, card-driven media interface for local video and audio playback. Designed with performance and modern mobile aesthetics in mind, it provides low-latency playback alongside native drag and gesture shortcuts.
 
 ---
 
 ## ✨ Key Features
 
-| Feature | Description |
-| :--- | :--- |
-| 🎨 **Card-Driven UI** | Hero previews and media cards instead of plain text lists. |
-| ⚡ **Hardware Accelerated** | Low CPU/battery consumption for high-bitrate video playback. |
-| 📱 **Gesture Controls** | Fast, intuitive swipe actions for volume, brightness, and seeking. |
-| 📁 **Visual Navigation** | Switch seamlessly between grid views and organized folder layouts. |
+* **🎨 Modern Card-Driven UI:** Replaces plain text file trees with rich media cards and hero preview banners.
+* **⚡ Hardware-Accelerated Playback:** Low CPU overhead ensuring smooth, high-bitrate media decoding.
+* **📱 Touch & Gesture Shortcuts:** Intuitive drag controls for fast seeking, brightness, and volume adjustments.
+* **📁 Visual Library Management:** Easily toggle between visual hero cards or quick structured folder access.
 
 ---
 
 ## 📱 Screenshots
 
-<p align="center">
-  <img src="assets/HomeScreen.png" width="45%" alt="Home Screen" />
-  <img src="assets/FolderScreen.png" width="45%" alt="Folder Screen" />
-</p>
-
-<p align="center">
-  <img src="assets/PlayerScreen.png" width="45%" alt="Player Screen" />
-  <img src="assets/SettingsScreen.png" width="45%" alt="Settings Screen" />
-</p>
-
----
-
 <div align="center">
-
-Made with 💚 by [silenTKnight-sudo506](https://github.com/silenTKnight-sudo506)
-
+  <img src="assets/HomeScreen.png" width="30%" alt="Home Screen" />
+  <img src="assets/PlayerScreen.png" width="30%" alt="Player Screen" />
+  <img src="assets/FolderScreen.png" width="30%" alt="Folder Screen" />
 </div>
-  <img src="assets/FolderScreen.png" width="45%" alt="Folder Screen" />
-</p>
-
-<p align="center">
-  <img src="assets/PlayerScreen.png" width="45%" alt="Player Screen 1" />
-  <img src="assets/PlayerSscreen_1.png" width="45%" alt="Player Screen 2" />
-</p>
-
-<p align="center">
-  <img src="assets/SettingsScreen.png" width="45%" alt="Settings Screen" />
-</p>
 
 ---
 
