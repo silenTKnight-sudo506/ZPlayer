@@ -42,6 +42,8 @@
   <img src="assets/HomeScreen.png" width="30%" alt="Home Screen" />
   <img src="assets/PlayerScreen.png" width="30%" alt="Player Screen" />
   <img src="assets/FolderScreen.png" width="30%" alt="Folder Screen" />
+  <img src="assets/PlayerScreen_1.png" width="30%" alt="Player Screen" />
+  <img src="assets/SettingsScreen.png" width="30%" alt="Folder Screen" />
 </div>
 
 ---
