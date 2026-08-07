@@ -40,11 +40,11 @@
 
 | Home | Folders | Player |
 | :---: | :---: | :---: |
-| <img src="assets/HomeScreen.png" width="250" /> | <img src="assets/FolderScreen.png" width="250" /> | <img src="assets/PlayerScreen.png" width="250" /> |
+| <img src="assets/HomeScreen.png" width="250" /> | <img src="assets/FolderScreen.png" width="250" /> | <img src="assets/PlayerSscreen_1.png" width="250" /> |
 
 | Player Details | Settings |
 | :---: | :---: |
-| <img src="assets/PlayerSscreen_1.png" width="250" /> | <img src="assets/SettingsScreen.png" width="250" /> |
+| <img src="assets/PlayerScreen.png" width="250" /> | <img src="assets/SettingsScreen.png" width="250" /> |
 
 ---
 
