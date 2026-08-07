@@ -1,119 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Z Player | The Ultimate Media Experience</title>
-    <style>
-        :root {
-            --primary: #6C5CE7;
-            --bg-dark: #121212;
-            --text-light: #F5F5F5;
-        }
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-light);
-            line-height: 1.6;
-        }
-        header {
-            padding: 2rem 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #333;
-        }
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: var(--primary);
-        }
-        .hero {
-            text-align: center;
-            padding: 6rem 2rem;
-        }
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            color: #AAA;
-            max-width: 600px;
-            margin: 0 auto 2rem auto;
-        }
-        .cta-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background-color: var(--primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #5b4bc4;
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-            padding: 4rem 2rem;
-            background-color: #1a1a1a;
-        }
-        .feature-card {
-            background: #252525;
-            padding: 2rem;
-            border-radius: 10px;
-            width: 300px;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid #333;
-            margin-top: 2rem;
-            color: #777;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Z Player — Modern Android Media Player</title>
+  <style>
+    :root {
+      --bg-dark: #0D1117;
+      --card-bg: #161B22;
+      --border-color: #30363D;
+      --accent-green: #22C55E;
+      --accent-glow: rgba(34, 197, 94, 0.25);
+      --text-primary: #F0F6FC;
+      --text-secondary: #8B949E;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Header & Hero Section */
+    header {
+      text-align: center;
+      padding: 40px 0 20px 0;
+    }
+
+    .logo {
+      width: 110px;
+      height: 110px;
+      border-radius: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 24px auto;
+    }
+
+    /* Action Buttons */
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-green);
+      color: #000000;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
+    }
+
+    .btn-secondary {
+      background-color: var(--card-bg);
+      color: var(--text-primary);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent-green);
+      color: var(--accent-green);
+    }
+
+    /* Section Styling */
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    /* Features Grid */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .feature-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      transition: border-color 0.2s ease;
+    }
+
+    .feature-card:hover {
+      border-color: var(--accent-green);
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      color: var(--accent-green);
+      margin-bottom: 8px;
+    }
+
+    .feature-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    /* Screenshots Gallery */
+    .screenshots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      justify-items: center;
+    }
+
+    .screenshots-grid img {
+      width: 100%;
+      max-width: 240px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    footer a {
+      color: var(--accent-green);
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
+  <div class="container">
     <header>
-        <div class="logo">Z Player</div>
-        <nav>
-            <a href="https://github.com/yourusername/Z-Player" target="_blank" style="color: white; text-decoration: none;">View on GitHub</a>
-        </nav>
+      <img src="assets/Logo.png" alt="Z Player Logo" class="logo" />
+      <h1>Z Player</h1>
+      <p class="tagline">A modern, fast Android media player built with card UI layouts, hero previews, and fluid gesture controls.</p>
+      
+      <div class="btn-container">
+        <a href="https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest" class="btn btn-primary">Download APK</a>
+        <a href="https://github.com/silenTKnight-sudo506/ZPlayer" class="btn btn-secondary">GitHub Repo</a>
+      </div>
     </header>
 
-    <section class="hero">
-        <h1>Welcome to Z Player</h1>
-        <p>A lightweight, powerful, and customizable media application designed for a seamless playback experience.</p>
-        <a href="#download" class="cta-button">Download Now</a>
+    <section id="features">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🎨 Card-Driven UI</h3>
+          <p>Replaces plain text file trees with rich media cards and hero preview banners.</p>
+        </div>
+        <div class="feature-card">
+          <h3>⚡ Hardware Acceleration</h3>
+          <p>Low CPU overhead ensuring smooth, high-bitrate media decoding.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📱 Gesture Shortcuts</h3>
+          <p>Intuitive drag controls for fast seeking, brightness, and volume adjustments.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📁 Visual Navigation</h3>
+          <p>Easily toggle between visual hero cards or quick structured folder access.</p>
+        </div>
+      </div>
     </section>
 
-    <section class="features">
-        <div class="feature-card">
-            <h3>Lightning Fast</h3>
-            <p>Optimized for speed and minimal resource consumption.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Format Support</h3>
-            <p>Plays almost any media format you throw at it right out of the box.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Customizable</h3>
-            <p>Tweak the interface and playback settings to match your exact preferences.</p>
-        </div>
+    <section id="screenshots">
+      <h2>Screenshots</h2>
+      <div class="screenshots-grid">
+        <img src="assets/HomeScreen.png" alt="Home Screen" />
+        <img src="assets/FolderScreen.png" alt="Folder Screen" />
+        <img src="assets/PlayerScreen.png" alt="Player Screen" />
+        <img src="assets/SettingsScreen.png" alt="Settings Screen" />
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Z Player. Open Source under the MIT License.</p>
+      <p>Developed with ❤️ by <a href="https://github.com/silenTKnight-sudo506">silenTKnight-sudo506</a></p>
     </footer>
+  </div>
 
 </body>
 </html>
