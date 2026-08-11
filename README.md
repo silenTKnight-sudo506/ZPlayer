@@ -64,6 +64,6 @@
 
 <div align="center">
 
-Made with ❤️ by [silenTKnight-sudo506](https://github.com/silenTKnight-sudo506)
+Made with ❤️ by [silenTKnight](https://github.com/silenTKnight-sudo506)
 
 </div>
