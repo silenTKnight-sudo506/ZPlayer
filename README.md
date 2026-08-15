@@ -65,9 +65,11 @@
 3. Install the APK on your Android device.
 
 ---
-If you found this project helpful, please consider giving it a ⭐ Star.
 
 <div align="center">
+  
+**If you found this project helpful, please consider giving it a ⭐ Star.**
+<br>
   
 Made with ❤️ by [silenTKnight](https://github.com/silenTKnight-sudo506)
 </div>
