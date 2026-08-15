@@ -7,6 +7,7 @@
   **A modern, fast Android media player built with card UI layouts and hero previews.**
 
   [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=flat-square&color=6C5CE7)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+  [![Downloads](https://img.shields.io/github/downloads/silenTKnight-sudo506/ZPlayer/total?style=flat-square&color=00CEC9)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
   [![License: GPL-3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](LICENSE)
   [![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
   [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square&color=FFD700)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
@@ -69,3 +70,4 @@
 
 Made with ❤️ by [silenTKnight](https://github.com/silenTKnight-sudo506)
 
+</div>
