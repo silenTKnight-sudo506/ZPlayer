@@ -57,7 +57,7 @@
 ## 🚀 Installation
 
 1. Go to the [**Releases**](https://github.com/silenTKnight-sudo506/ZPlayer/releases) section.
-2. Download the latest `.apk` file (e.g., `ZPlayer-v1.0.1.apk`).
+2. Download the latest `.apk` file.
 3. Install the APK on your Android device.
 
 ---
