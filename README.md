@@ -2,23 +2,37 @@
 
   <img src="assets/Logo.png" alt="Z Player Logo" width="120" style="border-radius: 24px;" />
 
-  # Z Player
+# Z Player
 
-  **A modern, fast Android media player built with card UI layouts and hero previews.**
+**A modern, fast Android media player built with card UI layouts and hero previews.**
 
-  [![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=flat-square&color=6C5CE7)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
-  [![Downloads](https://img.shields.io/github/downloads/silenTKnight-sudo506/ZPlayer/total?style=flat-square&color=00CEC9)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
-  [![License: GPL-3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](LICENSE)
-  [![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
-  [![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square&color=FFD700)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
+[![Version](https://img.shields.io/github/v/release/silenTKnight-sudo506/ZPlayer?style=flat-square\&color=6C5CE7)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+[![Downloads](https://img.shields.io/github/downloads/silenTKnight-sudo506/ZPlayer/total?style=flat-square\&color=00CEC9)](https://github.com/silenTKnight-sudo506/ZPlayer/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square\&logo=android\&logoColor=white)](#)
+[![Stars](https://img.shields.io/github/stars/silenTKnight-sudo506/ZPlayer?style=flat-square\&color=FFD700)](https://github.com/silenTKnight-sudo506/ZPlayer/stargazers)
 
   <br />
 
-  [📥 **Download Latest APK**](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest) • [✨ **Features**](#-key-features) • [📱 **Screenshots**](#-screenshots)
+[📥 **Download Latest APK**](https://github.com/silenTKnight-sudo506/ZPlayer/releases/latest) • [✨ **Features**](#-key-features) • [📱 **Screenshots**](#-screenshots)
 
   <br />
 
 </div>
+
+---
+
+> [!NOTE]
+>
+> ### 🛠️ Z Player is currently being reworked
+>
+> I'm currently working on **reforming and improving Z Player**, including changes to its playback experience, UI, performance, and overall architecture.
+>
+> **Because of this, there may be no updates or releases for approximately a week.**
+>
+> This is a temporary development pause while the current changes are being worked on. **Z Player is still actively maintained**, and development will resume with the updated version once the rework is complete.
+>
+> Thank you for your patience and for supporting the project! ❤️
 
 ---
 
@@ -67,9 +81,11 @@
 ---
 
 <div align="center">
-  
+
 **If you found this project helpful, please consider giving it a ⭐ Star.**
+
 <br>
-  
+
 Made with ❤️ by [silenTKnight](https://github.com/silenTKnight-sudo506)
+
 </div>
