@@ -20,21 +20,6 @@
 
 </div>
 
----
-
-> [!NOTE]
->
-> ### 🛠️ Z Player is currently being reworked
->
-> I'm currently working on **reforming and improving Z Player**, including changes to its playback experience, UI, performance, and overall architecture.
->
-> **Because of this, there may be no updates or releases for approximately a week.**
->
-> This is a temporary development pause while the current changes are being worked on. **Z Player is still actively maintained**, and development will resume with the updated version once the rework is complete.
->
-> Thank you for your patience and for supporting the project! ❤️
-
----
 
 ## 📌 Overview
 
