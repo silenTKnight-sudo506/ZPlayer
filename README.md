@@ -142,6 +142,11 @@ The goal is simple:
 </p>
 
 <p align="center">
+  <img src="assets/TMDB_HS.png" width="45%" alt="Z Player Home Screen" />
+  <img src="assets/TMDB_DS.png" width="45%" alt="Z Player Folder Screen" />
+</p>
+
+<p align="center">
   <img src="assets/Player_Screen.png" width="45%" alt="Z Player Player Screen" />
   <img src="assets/PlayerScreen_1.png" width="45%" alt="Z Player Playback Controls" />
 </p>
