@@ -103,6 +103,26 @@ Keep your entire local media collection organized and accessible.
 - Hidden Files & Folders – Access hidden media when needed.
 - Customizable Navigation – Configure your library navigation experience.
 
+🌐 Online Integrations
+
+Enhance your local media library with online metadata, artwork, and anime categorization.
+
+🎬 TMDB Integration
+
+- TMDB-powered home screen
+- Movie and TV show metadata
+- Detailed media information and artwork
+
+🎌 AniList Integration
+
+- Anime identification and categorization
+- Anime-focused media organization
+- AniList-powered anime metadata
+
+«Note: Z Player follows an offline-first approach. Online integrations such as TMDB and AniList require an active internet connection. To keep the core experience focused on local media, these integrations are disabled by default. You can choose whether to enable them based on your preference.
+
+To enable online integrations, go to Settings → General → Rich Metadata (TMDB).»
+
 🎨 Modern Material 3 Interface
 
 A clean and thoughtfully designed interface that feels at home on Android.
