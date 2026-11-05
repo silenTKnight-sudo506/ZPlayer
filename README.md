@@ -194,7 +194,7 @@ The result is a playback experience designed to handle everything from everyday 
 🎬 TMDB Integration
 
 <p align="center">
-  <img src="assets/TMDB_HS.png" width="45%" alt="TMDB Home Screen" />
+  <img src="assets/TMDB_HS1.png" width="45%" alt="TMDB Home Screen" />
   <img src="assets/TMDB_DS.png" width="45%" alt="TMDB Detail Screen" />
 </p>
 
